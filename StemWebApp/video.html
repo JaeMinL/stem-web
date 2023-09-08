@@ -32,22 +32,21 @@
  <body>
 	<!-- ======= Navbar ======= -->
 	   <header>
-		   <div class="navbar-collapse custom-navmenu" id="main-navbar">
-			   <div class="container py-0 py-sm-1">
-				   <div class="row align-items-end">
-					   <div class="col-md-4 d-none d-md-block mr-auto">
-							<div class="img-logo"><img src="img/AWS_logo_RGB_REV.png" alt="Image" class="img-fluid" style="float: left"></div>
-					   </div>
-					   <div class="col-md-4 d-none d-md-block mr-auto">
-							<div class="img-logo"><img src="img/Stem_logo.png" alt="Image" class="img-fluid"></div>
-					   </div>
-					   <div class="col-md-4 d-none d-md-block mr-auto">
-							<div class="img-logo"><img src="img/logo-dark.svg" alt="Image" class="img-fluid" style="min-width: 200px;min-height: 120px; float: right;"></div>
+			<div class="navbar-collapse custom-navmenu" id="main-navbar">
+				<div class="container py-0 py-sm-1">
+					<div class="row align-items-end">
+						<div class="col-md-4 d-none d-md-block mr-auto">
+							<div class="img-logo"><img src="img/AWS_logo_RGB_REV.png" alt="Image" class="img-fluid" style="max-height: 120px; float: left"></div>
 						</div>
-					   
-				   </div>
-			   </div>
-		   </div>
+						<div class="col-md-4 d-none d-md-block mr-auto">
+							<div class="img-logo" style="justify-content : center;"><img src="img/Stem_logo.png" alt="Image" class="img-fluid" style="max-height: 170px; margin-left: 10%;"></div>
+						</div>
+						<div class="col-md-4 d-none d-md-block mr-auto">
+							<div class="img-logo"><img src="img/logo-dark.svg" alt="Image" class="img-fluid" style="min-width: 200px;min-height: 140px; float: right; max-height: 140px;"></div>
+						</div>
+					</div>
+				</div>
+			</div>
    
 		   <nav class="navbar navbar-light custom-navbar">
 			   <div class="container" style="margin-left: 5%; margin-right: 5%;">
@@ -89,18 +88,38 @@
 				<h4>Video</h4>
 				<div id="portfolio-grid" class="row" data-aos="fade-up" data-aos-delay="10">
 					<div class="item col-sm-3 col-lg-3 col-xl-2 mb-4 shadow-sm2">
-						<a href="daily?date=${date_id }"  value='${date_id}' class="item-wrap fancybox">
 						<a href="daily?date=${date_id }" onclick="javascript:dailyFunction(${date_id });" value='${date_id}' class="item-wrap fancybox">
 							<div class="d-flex justify-content-start align-items-center" style="border-bottom: 0.6px solid #cbd3da">
 							</div>  
-							<img src="img/Peccy.png" alt="Image" class="img-fluid">
+							<img src="img/person1.png" alt="Image" class="img-fluid">
 							<div class="card-body" style="border-top: 0.6px solid #cbd3da">
 								<p class="card-title">Group Name: </p>
 							</div>
 						</a>
 					</div>
 					<div class="item col-sm-3 col-lg-3 col-xl-2 mb-4 shadow-sm2">
-						<a href="daily?date=${date_id }"  value='${date_id}' class="item-wrap fancybox">
+						<a href="daily?date=${date_id }" onclick="javascript:dailyFunction(${date_id });" value='${date_id}' class="item-wrap fancybox">
+							<div class="d-flex justify-content-start align-items-center" style="border-bottom: 0.6px solid #cbd3da">
+							</div>  
+							<img src="img/person2.png" alt="Image" class="img-fluid">
+							<div class="card-body" style="border-top: 0.6px solid #cbd3da">
+								<p class="card-title">Group Name: </p>
+								<!-- <p class="card-text"></p> -->
+							</div>
+						</a>
+					</div>
+					<div class="item col-sm-3 col-lg-3 col-xl-2 mb-4 shadow-sm2">
+						<a href="daily?date=${date_id }" onclick="javascript:dailyFunction(${date_id });" value='${date_id}' class="item-wrap fancybox">
+							<div class="d-flex justify-content-start align-items-center" style="border-bottom: 0.6px solid #cbd3da">
+							</div>  
+							<img src="img/person3.png" alt="Image" class="img-fluid">
+							<div class="card-body" style="border-top: 0.6px solid #cbd3da">
+								<p class="card-title">Group Name: </p>
+								<!-- <p class="card-text"></p> -->
+							</div>
+						</a>
+					</div>
+					<div class="item col-sm-3 col-lg-3 col-xl-2 mb-4 shadow-sm2">
 						<a href="daily?date=${date_id }" onclick="javascript:dailyFunction(${date_id });" value='${date_id}' class="item-wrap fancybox">
 							<div class="d-flex justify-content-start align-items-center" style="border-bottom: 0.6px solid #cbd3da">
 							</div>  
@@ -112,7 +131,6 @@
 						</a>
 					</div>
 					<div class="item col-sm-3 col-lg-3 col-xl-2 mb-4 shadow-sm2">
-						<a href="daily?date=${date_id }"  value='${date_id}' class="item-wrap fancybox">
 						<a href="daily?date=${date_id }" onclick="javascript:dailyFunction(${date_id });" value='${date_id}' class="item-wrap fancybox">
 							<div class="d-flex justify-content-start align-items-center" style="border-bottom: 0.6px solid #cbd3da">
 							</div>  
@@ -124,7 +142,6 @@
 						</a>
 					</div>
 					<div class="item col-sm-3 col-lg-3 col-xl-2 mb-4 shadow-sm2">
-						<a href="daily?date=${date_id }"  value='${date_id}' class="item-wrap fancybox">
 						<a href="daily?date=${date_id }" onclick="javascript:dailyFunction(${date_id });" value='${date_id}' class="item-wrap fancybox">
 							<div class="d-flex justify-content-start align-items-center" style="border-bottom: 0.6px solid #cbd3da">
 							</div>  
@@ -136,31 +153,6 @@
 						</a>
 					</div>
 					<div class="item col-sm-3 col-lg-3 col-xl-2 mb-4 shadow-sm2">
-						<a href="daily?date=${date_id }"  value='${date_id}' class="item-wrap fancybox">
-						<a href="daily?date=${date_id }" onclick="javascript:dailyFunction(${date_id });" value='${date_id}' class="item-wrap fancybox">
-							<div class="d-flex justify-content-start align-items-center" style="border-bottom: 0.6px solid #cbd3da">
-							</div>  
-							<img src="img/Peccy.png" alt="Image" class="img-fluid">
-							<div class="card-body" style="border-top: 0.6px solid #cbd3da">
-								<p class="card-title">Group Name: </p>
-								<!-- <p class="card-text"></p> -->
-							</div>
-						</a>
-					</div>
-					<div class="item col-sm-3 col-lg-3 col-xl-2 mb-4 shadow-sm2">
-						<a href="daily?date=${date_id }"  value='${date_id}' class="item-wrap fancybox">
-						<a href="daily?date=${date_id }" onclick="javascript:dailyFunction(${date_id });" value='${date_id}' class="item-wrap fancybox">
-							<div class="d-flex justify-content-start align-items-center" style="border-bottom: 0.6px solid #cbd3da">
-							</div>  
-							<img src="img/Peccy.png" alt="Image" class="img-fluid">
-							<div class="card-body" style="border-top: 0.6px solid #cbd3da">
-								<p class="card-title">Group Name: </p>
-								<!-- <p class="card-text"></p> -->
-							</div>
-						</a>
-					</div>
-					<div class="item col-sm-3 col-lg-3 col-xl-2 mb-4 shadow-sm2">
-						<a href="daily?date=${date_id }"  value='${date_id}' class="item-wrap fancybox">
 						<a href="daily?date=${date_id }" onclick="javascript:dailyFunction(${date_id });" value='${date_id}' class="item-wrap fancybox">
 							<div class="d-flex justify-content-start align-items-center" style="border-bottom: 0.6px solid #cbd3da">
 							</div>  
